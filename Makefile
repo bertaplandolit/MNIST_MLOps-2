@@ -4,7 +4,7 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = MNIST_MLOps-2
+PROJECT_NAME = MNIST_MLOps
 PYTHON_VERSION = 3.11
 PYTHON_INTERPRETER = python
 
@@ -20,7 +20,7 @@ create_environment:
 requirements:
 	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
-	$(PYTHON_INTERPRETER) -m pip install -e .
+	$(PYTHON_INTERPRETER) -m pip install .
 
 ## Install Developer Python Dependencies
 dev_requirements: requirements

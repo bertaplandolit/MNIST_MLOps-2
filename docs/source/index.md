@@ -1,4 +1,4 @@
 ## Documentation
 
-Documentation for MNIST_MLOps-2
+Documentation for MNIST_MLOps
 

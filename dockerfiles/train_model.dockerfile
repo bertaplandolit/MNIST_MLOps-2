@@ -7,11 +7,11 @@ RUN apt update && \
 
 COPY requirements.txt requirements.txt
 COPY pyproject.toml pyproject.toml
-COPY MNIST_MLOps-2/ MNIST_MLOps-2/
+COPY MNIST_MLOps/ MNIST_MLOps/
 COPY data/ data/
 
 WORKDIR /
 RUN pip install -r requirements.txt --no-cache-dir
 RUN pip install . --no-deps --no-cache-dir
 
-ENTRYPOINT ["python", "-u", "MNIST_MLOps-2/train_model.py"]
+ENTRYPOINT ["python", "-u", "MNIST_MLOps/train_model.py"]

@@ -1,6 +1,7 @@
-# MNIST_MLOps-2
+<<<<<<< HEAD
+# MNIST_MLOps
 
-mnist mlops
+corrupted images CNN  MNIST classifier
 
 ## Project structure
 
@@ -37,7 +38,7 @@ The directory structure of the project looks like this:
 │
 ├── tests                <- Test files
 │
-├── MNIST_MLOps-2  <- Source code for use in this project.
+├── MNIST_MLOps  <- Source code for use in this project.
 │   │
 │   ├── __init__.py      <- Makes folder a Python module
 │   │
@@ -61,3 +62,6 @@ The directory structure of the project looks like this:
 Created using [mlops_template](https://github.com/SkafteNicki/mlops_template),
 a [cookiecutter template](https://github.com/cookiecutter/cookiecutter) for getting
 started with Machine Learning Operations (MLOps).
+=======
+# MNIST_MLOps
+>>>>>>> origin/main
