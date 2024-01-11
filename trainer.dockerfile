@@ -8,6 +8,7 @@ RUN apt-get update && \
 
 COPY requirements.txt requirements.txt
 COPY pyproject.toml pyproject.toml
+COPY models/ models/
 COPY data/ data/
 
 WORKDIR /
